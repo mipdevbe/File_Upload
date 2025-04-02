@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Michel\\ASP.NET Core 9\\File_Upload\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FFF5758-B537-4192-8466-575824A665D2}|File_Upload\\File_Upload.csproj|c:\\michel\\asp.net core 9\\file_upload\\file_upload\\services\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FFF5758-B537-4192-8466-575824A665D2}|File_Upload\\File_Upload.csproj|solutionrelative:file_upload\\services\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FFF5758-B537-4192-8466-575824A665D2}|File_Upload\\File_Upload.csproj|c:\\michel\\asp.net core 9\\file_upload\\file_upload\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FFF5758-B537-4192-8466-575824A665D2}|File_Upload\\File_Upload.csproj|solutionrelative:file_upload\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FFF5758-B537-4192-8466-575824A665D2}|File_Upload\\File_Upload.csproj|c:\\michel\\asp.net core 9\\file_upload\\file_upload\\file_upload.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3FFF5758-B537-4192-8466-575824A665D2}|File_Upload\\File_Upload.csproj|solutionrelative:file_upload\\file_upload.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FFF5758-B537-4192-8466-575824A665D2}|File_Upload\\File_Upload.csproj|c:\\michel\\asp.net core 9\\file_upload\\file_upload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FFF5758-B537-4192-8466-575824A665D2}|File_Upload\\File_Upload.csproj|solutionrelative:file_upload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "File_Upload",
+              "DocumentMoniker": "C:\\Michel\\ASP.NET Core 9\\File_Upload\\File_Upload\\File_Upload.csproj",
+              "RelativeDocumentMoniker": "File_Upload\\File_Upload.csproj",
+              "ToolTip": "C:\\Michel\\ASP.NET Core 9\\File_Upload\\File_Upload\\File_Upload.csproj",
+              "RelativeToolTip": "File_Upload\\File_Upload.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T09:58:33.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileUpload.cs",
+              "DocumentMoniker": "C:\\Michel\\ASP.NET Core 9\\File_Upload\\File_Upload\\Services\\FileUpload.cs",
+              "RelativeDocumentMoniker": "File_Upload\\Services\\FileUpload.cs",
+              "ToolTip": "C:\\Michel\\ASP.NET Core 9\\File_Upload\\File_Upload\\Services\\FileUpload.cs",
+              "RelativeToolTip": "File_Upload\\Services\\FileUpload.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCsAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:44:47.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Michel\\ASP.NET Core 9\\File_Upload\\File_Upload\\Program.cs",
+              "RelativeDocumentMoniker": "File_Upload\\Program.cs",
+              "ToolTip": "C:\\Michel\\ASP.NET Core 9\\File_Upload\\File_Upload\\Program.cs",
+              "RelativeToolTip": "File_Upload\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:52:29.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Michel\\ASP.NET Core 9\\File_Upload\\File_Upload\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "File_Upload\\Pages\\Index.razor",
+              "ToolTip": "C:\\Michel\\ASP.NET Core 9\\File_Upload\\File_Upload\\Pages\\Index.razor",
+              "RelativeToolTip": "File_Upload\\Pages\\Index.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:33:29.641Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
