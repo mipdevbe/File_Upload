@@ -5,6 +5,7 @@ namespace File_Upload.Services
     public interface IFileUpload
     {
         Task UploadFile(IBrowserFile file);
+        Task<string> GeneratePreviewUrl(IBrowserFile file);
     }
 
     public class FileUpload : IFileUpload
@@ -24,7 +25,8 @@ namespace File_Upload.Services
             {
                 try
                 {
-                    var uploadPath = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", file.Name);
+                    var sanitizedFileName = Path.GetFileName(file.Name);
+                    var uploadPath = Path.Combine(_webHostEnvironment.WebRootPath, "uploads", sanitizedFileName);
 
                     // Create the uploads folder if it does not exist
                     var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploads");
@@ -48,6 +50,18 @@ namespace File_Upload.Services
                     _logger.LogError(ex.ToString());
                 }
             }
+        }
+
+        public async Task<string> GeneratePreviewUrl(IBrowserFile file)
+        {
+            if (!file.ContentType.Contains("image"))
+                if (!file.ContentType.Contains("pdf"))
+                    return "images/pdf_log.png";
+
+            var resizedImage = await file.RequestImageFileAsync(file.ContentType, 100, 100);
+            var buffer = new byte[resizedImage.Size];
+            await resizedImage.OpenReadStream().ReadExactlyAsync(buffer);
+            return $"data:{file.ContentType};base64,{Convert.ToBase64String(buffer)}";
         }
     }
 }
